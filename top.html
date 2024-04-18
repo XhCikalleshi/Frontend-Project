@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage New Header V3</title>
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="glide.core.min.css">
+        <link rel="stylesheet" href="glide.theme.min.css"/>
+</head>
+<body>
+    
+
+<div class="konteineri">
+
+  <div class="image1">
+  	<div class="text-overlay">"Celebrate your unique <br> beauty with our exquisite <br> range of makeup products"</div>
+  	<div class="text-overlay1"> SALE <br> 50% OFF</div>
+  	<div class="text-overlay2"> CODE:3gfu38 </div>
+  	<div class="text-overlay3"><input type="button" value="Shop now" id="btnimg1" /> </div>
+    <script>
+
+document.getElementById("btnimg1").onclick = function() {
+    alert("Page is not found!"); 
+};
+</script>
+	<img src="image3.jpg" style="width: 600px; height :400px"; >
+</div>
+	<div class="image2">
+	<div class="text-overlay4"> Enhance <br> beauty</div>
+	<div class="text-overlay5"><button type="button" value="Shop now" id="btnimg2" onclick="showNotFound()">Shop now</button> </div>
+    <img src="image2.jpg" style="width: 300px;height :200px" ;>
+</div>
+    <div class="image3">
+    <div class="text-overlay6"> DISCOVER YOUR BEAUTY</div>
+    <div class="text-overlay7"><button type="button" value="Shop now" id="btnimg3" onclick="showNotFound()">Shop now</button> </div>
+    <img src="image1.jpg" style="width: 300px;height :195px" ;>
+   
+
+    
+</div>
+
+</div>
+    <div class="container1">
+        <div class="image">
+        	<p id="p1">  BRUSH </p>
+            <img src="image4.jpg" style="width: 100px;height :100px" ;><br><br>
+            <button type="button" id="btn1" onclick="showNotFound()" >Shop now</button>
+
+        </div>
+        <div class="image">
+        	<p id="p2"> LIPSTICK </p>
+            <img src="image5.jpg" style="width: 100px;height :100px" ;><br><br>
+            <button type="button"  id="btn2"  onclick="showNotFound()">Shop now</button>
+
+        </div>
+        <div class="image">
+        	<p id="p3"> BRONZER</p>
+            <img src="image6.jpg" style="width: 100px;height :100px" ;><br><br>
+            <button type="button"  id="btn3" onclick="showNotFound()">Shop now</button>
+        </div>
+        <div class="image">
+        	<p id="p4"> COMPACT POWDER </p>
+            <img src="image7.jpg" style="width: 100px;height :100px" ;><br><br>
+            <button type="button"  id="btn4" onclick="showNotFound()" >Shop now</button>
+        </div>
+        <div class="image">
+        	<p id="p5"> EYE SHADOW</p>
+            <img src="image8.jpg" style="width: 100px;height :100px" ;><br><br>
+            <button type="button"  id="btn5" onclick="showNotFound()">Shop now</button>
+        </div>
+    </div>
+    <script>
+function showNotFound() {
+    alert("Page is not found");
+}
+</script>
+    <br>
+    <br>
+    <br>
+
+    
+    <!--<div class="label1">
+        <div class="glide"></div>
+        <p id="pgh"> New Products </p>
+        
+
+        <button class="arrow-right"></button>
+        <button class="arrow-left"></button>
+
+        <div class="label2"> <img src="foto1.jpg" style="width: 130px;height :160px" ;> <p id="cmimi1"> 5.00$</p></div>
+        <div class="label3"><img src="foto2.jpg" style="width: 130px;height :160px" ;><p id="cmimi2"> 35.00$</p></div>
+        <div class="label4"><img src="foto3.jpg" style="width: 130px;height :160px" ;><p id="cmimi3"> 45.00$</p></div>
+        <div class="label5"><img src="foto4.jpg" style="width: 130px;height :160px" ;><p id="cmimi4"> 85.00$</p></div>
+        
+              <ul class="carousel__track">
+                <li class="carousel__slide">
+                    
+                </li>
+                 <li class="carousel__slide">
+                    
+                 </li>
+                  <li class="carousel__slide">
+                   
+                  </li>
+                  <li class="carousel__slide">
+                      
+                  </li>
+              </ul>
+               <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+
+            </div>
+    
+        
+    </div>
+    </div>
+-->
+ <div class="container2" >
+    <div class="label1">
+        <p id="pgh"> New Products </p>
+   <div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      <li class="glide__slide"><img src="foto1.jpg" style="width: 350px;height :300px" ;><p id="cmimi1"> 5.00$</p></li>
+      <li class="glide__slide"><img src="foto2.jpg" style="width: 350px;height :300px" ;><p id="cmimi2"> 5.00$</p></li>
+      <li class="glide__slide"><img src="foto3.jpg" style="width: 350px;height :300px" ;><p id="cmimi3"> 5.00$</p></li>
+      <li class="glide__slide"><img src="foto4.jpg" style="width: 350px;height :300px" ;><p id="cmimi4"> 5.00$</p></li>
+
+    </ul>
+  </div>
+  
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+  </div>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"> </script>
+
+<script> 
+    const config = {
+        type:'carousel',
+        perView:3,
+        breakpoints: {
+            800: {
+                perView:2 
+            }
+        }
+    };
+  new Glide(".glide", config).mount();
+</script>
+  
+
+</body>
+</html>
+
+
+
+</body>
+</html>
